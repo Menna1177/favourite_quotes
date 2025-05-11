@@ -18,7 +18,6 @@ class _favQuotesScreenState extends State<favQuotesScreen> {
   final List<String> quotes = [];
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xF7650778),

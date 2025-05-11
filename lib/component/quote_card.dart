@@ -14,7 +14,8 @@ class QuoteCard extends StatelessWidget {
       margin: EdgeInsets.all(8),
       child: ListTile(
         title: Text('"${quote.content}"'),
-        subtitle: Text(quote.author, style: TextStyle(color: Colors.grey)),
+        subtitle: Text(quote.author,
+            style: TextStyle(color: Colors.grey)),
         trailing: IconButton(
           icon: Icon(Icons.delete, color: Colors.red),
           onPressed: () {
