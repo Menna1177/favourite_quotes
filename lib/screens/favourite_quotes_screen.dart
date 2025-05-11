@@ -44,7 +44,9 @@ class _favQuotesScreenState extends State<favQuotesScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () => showDialog(
             context: context, builder: (context) => AddQuoteDialog()),
+        backgroundColor: Color(0xF7650778),
         child: Icon(Icons.add),
+
       ),
     );
   }
