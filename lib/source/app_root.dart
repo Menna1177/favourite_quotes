@@ -13,7 +13,7 @@ class AppRoot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => FavQuotesCubit(quoteBox),
+      create: (context) => FavQuotesCubit(quoteBox),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: favQuotesScreen(),
